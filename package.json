@@ -3,7 +3,7 @@
     "start:serv1": "node src/server/consumo-server.mjs",
     "start:serv2": "node src/server/footprint-server.mjs",
     "start:serv3": "node src/server/solar-server.mjs",
-    "start": "npm-run-all --parallel start:serv1 start:serv2 start:serv3",
+    "start": "npx npm-run-all --parallel start:serv1 start:serv2 start:serv3",
     "build": "echo 'No build step needed'"
   },
   "dependencies": {
