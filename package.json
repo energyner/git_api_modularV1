@@ -15,6 +15,3 @@
   }
 }
 
-"scripts": {
-  "start": "node src/server/consumo-server.mjs & node src/server/footprint-server.mjs & node src/server/solar-server.mjs"
-}
