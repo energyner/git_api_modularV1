@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "start:serv1": "node src/server/consumo-server.mjs",
-    "start:serv2": "node src/server/footprint-server.mjs",
-    "start:serv3": "node src/server/solar-server.mjs",
-    "start": "node src/server/consumo-server.mjs & node src/server/footprint-server.mjs & node src/server/solar-server.mjs",
+    "start:serv1": "node src/api/consumo-server.mjs",
+    "start:serv2": "node src/api/footprint-server.mjs",
+    "start:serv3": "node src/api/solar-server.mjs",
+    "start": "node src/api/consumo-server.mjs & node src/api/footprint-server.mjs & node src/api/solar-server.mjs",
     "build": "echo 'No build step needed'"
   },
   "dependencies": {
